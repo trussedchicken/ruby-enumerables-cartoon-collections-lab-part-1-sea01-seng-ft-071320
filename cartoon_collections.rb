@@ -6,7 +6,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do | name, index |
-    add_one = index + 1
+    add_one = index + 1 
     puts array[name] = index
   end
 end
